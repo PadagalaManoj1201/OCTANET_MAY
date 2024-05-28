@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image: url('./ai.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: top;
+    justify-content: start;
+    align-items: center;
+    min-height: 199vh;
+}
+
+.header {
+    background-color: #bf29d6;
+    color: #fff;
+    padding: 20px;
+    gap: 77px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+
+.tool {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.frame {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.frame-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.tool-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tool-description {
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1;
+}
+
+.frame:hover .tool-description {
+    opacity: 1;
+    visibility: visible;
+}
+
+.openai {
+    background-color: #DC143C;
+}
+
+.gamma {
+    background-color: #e2ba34;
+}
+
+.midjourney {
+    background-color: #2980B9;
+}
+
+.miramuse {
+    background-color: #27AE60;
+}
+
+.quillbot {
+    background-color: #F39C12;
+}
+
+.notion {
+    background-color: #af18a0;
+}
+
+.stability {
+    background-color: #50c8ff;
+}
+
+.tome {
+    background-color: #6dff50;
+}
+
+.luminar {
+    background-color: #d21862;
+}
