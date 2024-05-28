@@ -30,5 +30,5 @@ This repository showcases my work on essential web development tasks, highlighti
 
 To explore the projects, clone this repository to your local machine:
 ```bash
-git clone https://github.com/PadagalaManoj1201/OCTANET_MAY/edit/main/README.md
+git clone [https://github.com/PadagalaManoj1201/OCTANET_MAY/edit/main/README.md](https://github.com/PadagalaManoj1201/OCTANET_MAY.git)
 
