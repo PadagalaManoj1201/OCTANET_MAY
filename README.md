@@ -12,7 +12,7 @@ This repository showcases my work on essential web development tasks, highlighti
 ### 1. Landing Web Page
 - **Description**: A responsive landing page designed to showcase a fictional product or service.
 - **Technologies Used**: HTML5, CSS3, JavaScript.
-**Features**:
+- **Features**:
   - Responsive design for various screen sizes.
   - Interactive elements such as buttons and forms.
   - Modern design principles with a focus on usability and aesthetics.
